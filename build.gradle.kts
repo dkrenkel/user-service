@@ -18,8 +18,8 @@ repositories {
 extra["springCloudVersion"] = "Greenwich.SR1"
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-data-cassandra")
-	implementation("org.springframework.boot:spring-boot-starter-security")
+//	implementation("org.springframework.boot:spring-boot-starter-data-cassandra")
+//	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
@@ -27,11 +27,11 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard")
-	implementation("org.springframework.cloud:spring-cloud-starter-netflix-turbine")
-	implementation("org.springframework.cloud:spring-cloud-starter-netflix-turbine-stream")
+//	implementation("org.springframework.cloud:spring-cloud-starter-netflix-turbine")
+//	implementation("org.springframework.cloud:spring-cloud-starter-netflix-turbine-stream")
 	implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	testImplementation("org.springframework.security:spring-security-test")
+//	testImplementation("org.springframework.security:spring-security-test")
 }
 
 dependencyManagement {
